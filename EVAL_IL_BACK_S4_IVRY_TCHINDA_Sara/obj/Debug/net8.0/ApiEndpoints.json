@@ -1,0 +1,176 @@
+[
+  {
+    "ContainingType": "FoldersController",
+    "Method": "GetAllFoldersAsync",
+    "RelativePath": "api/Folders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoldersController",
+    "Method": "CreateFolderAsync",
+    "RelativePath": "api/Folders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "folderDto",
+        "Type": "EVAL_IL_BACK_S4_IVRY_TCHINDA_Sara.DTO.FolderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoldersController",
+    "Method": "GetFolder",
+    "RelativePath": "api/Folders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoldersController",
+    "Method": "UpdateFolder",
+    "RelativePath": "api/Folders/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "folderDto",
+        "Type": "EVAL_IL_BACK_S4_IVRY_TCHINDA_Sara.DTO.FolderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FoldersController",
+    "Method": "DeleteFolder",
+    "RelativePath": "api/Folders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XFilesController",
+    "Method": "CreateXFile",
+    "RelativePath": "api/XFiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "xfileDto",
+        "Type": "EVAL_IL_BACK_S4_IVRY_TCHINDA_Sara.DTO.XFileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XFilesController",
+    "Method": "GetXFile",
+    "RelativePath": "api/XFiles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EVAL_IL_BACK_S4_IVRY_TCHINDA_Sara.Models.XFile",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XFilesController",
+    "Method": "UpdateXFile",
+    "RelativePath": "api/XFiles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "xfileDto",
+        "Type": "EVAL_IL_BACK_S4_IVRY_TCHINDA_Sara.DTO.XFileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XFilesController",
+    "Method": "DeleteXFile",
+    "RelativePath": "api/XFiles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XFilesController",
+    "Method": "GetFilesFromParent",
+    "RelativePath": "api/XFiles/fromParent/{parentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

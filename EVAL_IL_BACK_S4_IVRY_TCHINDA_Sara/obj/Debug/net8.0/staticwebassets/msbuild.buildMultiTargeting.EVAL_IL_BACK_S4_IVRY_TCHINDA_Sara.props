@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EVAL_IL_BACK_S4_IVRY_TCHINDA_Sara.props" />
+</Project>

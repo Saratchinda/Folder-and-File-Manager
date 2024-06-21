@@ -1,0 +1,6 @@
+@EVAL_IL_BACK_S4_IVRY_TCHINDA_Sara_HostAddress = http://localhost:5197
+
+GET {{EVAL_IL_BACK_S4_IVRY_TCHINDA_Sara_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
