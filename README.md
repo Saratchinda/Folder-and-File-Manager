@@ -1,2 +1,2 @@
 # Folder-and-File-Manager
-Ce dépôt contient le code source de mon projet. Il s'agit d'un gestionnaire de fichiers et de dossiers.
+Ce dépôt contient le code source de l'API de mon projet de gestionnaire de dossiers et fichiers.
